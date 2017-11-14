@@ -1,0 +1,219 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%
+}
+
+body {
+    margin: 0 auto;
+    font-family: "微软雅黑"
+}
+
+.swiper-container {
+    width: 100%;
+    margin: 0 auto
+}
+.swiper-slide{
+    background-size:100% 100%;
+}
+.swiper-container img {
+    width: 100%
+}
+
+.allTopics {
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.allTopics:active {
+    background-color: #f4f4f4
+}
+
+.allTopics>.icon {
+    width: 15%;
+    height: 30px
+}
+
+.allTopics>.icon img {
+    height: 30px
+}
+
+.allTopics>.text {
+    width: 70%;
+    height: 30px;
+    color: #616161;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.allTopics>.arrow {
+    width: 15%;
+    height: 30px
+}
+
+.allTopics>.arrow img {
+    height: 30px
+}
+
+.cut-off {
+    height: 40px;
+    width: 95%;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.cut-off>.column {
+    width: 30%;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    color: white
+}
+
+.cut-off>.line {
+    width: 70%;
+    height: 1px;
+    border: 0;
+    background-color: #e0e0e0
+}
+
+.commendPosts {
+    width: 90%;
+    margin: 0 auto;
+    position: relative
+}
+
+.commendPosts>.post:active {
+    background-color: #f4f4f4
+}
+
+.commendPosts>.post {
+    margin-top: 10px;
+    height: 40px;
+    width: 100%
+}
+
+.commendPosts>.post>.rank {
+    float: left;
+    line-height: 40px
+}
+
+.commendPosts>.post>.text {
+    float: left;
+    margin-left: 10px;
+    line-height: 40px;
+    color: #616161;
+    overflow: hidden
+}
+
+.todayHot {
+    background-color: #ff6564
+}
+
+.officialPosts {
+    background-color: #1ab1f5
+}
+
+.commendPosts>.post>.comment {
+    float: right;
+    line-height: 40px;
+    color: #c4c4c4
+}
+
+.commendPosts>.post>.thumb-up {
+    float: right;
+    margin-left: 10px;
+    line-height: 40px;
+    color: #c4c4c4
+}
+
+.commendPosts>.top1>.rank {
+    color: #ff6463
+}
+
+.commendPosts>.top2>.rank {
+    color: #ffe188
+}
+
+.commendPosts>.top3>.rank {
+    color: #58c5f7
+}
+
+.allTopics .text,.cut-off>.column,.commendPosts>.post>.rank,.commendPosts>.post>.text {
+    font-size: 1.6rem
+}
+
+.commendPosts>.post>.thumb-up,.commendPosts>.post>.comment {
+    font-size: 1rem
+}
+
+.mySpace {
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+
+.bigTopic {
+    width: 47%;
+    height: 130px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    box-shadow: 0 0 2px #888;
+    border-radius: 3px
+}
+
+.bigTopic>.pic {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden
+}
+
+.bigTopic>.pic img {
+    width: 100%;
+    height: 100%
+}
+
+.bigTopic>.pic>.follow {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 50%;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    display: none
+}
+
+.bigTopic>.pic>.post {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 50%;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    display: none
+}
+
+.bigTopic>.text {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #212121;
+    font-size: 1.6rem
+}

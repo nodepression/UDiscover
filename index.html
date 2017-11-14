@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" id="myHtml">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>utribe</title>
+      <link rel="stylesheet" type="text/css" href="./style/main.css">
+      <link rel="stylesheet" type="text/css" href="./style/swiper-3.4.2.min.css">
+</head>
+
+<body>
+      <div class="swiper-container" style="height:180px;">
+            <div class="swiper-wrapper" id="carousel">
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+                  <div class="swiper-slide"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+      </div>
+      <div class="mySpace"></div>
+      <div class="allTopics" id="lookAll">
+            <div class="icon"><img src="./images/menu.png"></div>
+            <div class="text"><span>查看全部话题<span></div>
+            <div class="arrow"><img src="./images/rightArrow.png"></div>
+      </div>
+      <div class="cut-off">
+            <div class="todayHot column"><span>今日热门</span></div>
+            <div class="line">
+            </div>      
+
+      </div>
+      <div id="hotTopics" class="hotTopics commendPosts">
+            <div class="post top1">
+                  <span class="rank">Top1</span>
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div>
+            <div class="post top2">
+                  <span class="rank">Top2</span>
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div>
+            <div class="post top3">
+                  <span class="rank">Top3</span>
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div>
+      </div>
+      <div class="cut-off">
+            <div class="officialPosts column"><span>编辑推荐</span></div>
+            <div class="line">
+            </div>        
+      </div>
+      <div id="official" class="official commendPosts">
+            <div class="post">
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div>
+            <div class="post">
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div>
+            <div class="post">
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div>
+            <!-- <div class="post">
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div>
+            <div class="post">
+                  <span class="text"></span>
+                  <span class="thumb-up"></span>
+                  <span class="comment"></span>
+            </div> -->
+      </div>
+      <div style="height:70px;width:100%"></div>
+
+      <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+      <script type="text/javascript" src="./js/swiper-3.4.2.min.js"></script>
+      <script type="text/javascript" src="http://apps.bdimg.com/libs/js-cookie/2.04/js.cookie.js"></script>
+      <script type="text/javascript" src="./js/main.js"></script>
+      <script>
+            (function () {
+                  var mySwiper = new Swiper('.swiper-container', {
+                        loop: true,
+                        autoplay: 5000,
+                        autoplayDisableOnInteraction: false,
+                        
+                        pagination: '.swiper-pagination',
+                        paginationClickable: true,
+                  })
+            })();
+      </script>
+</body>
+
+</html>
+
