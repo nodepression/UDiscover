@@ -133,7 +133,7 @@ function discover() {
         AppInterface.SendTieziId(id)
     });
     lookAll[CLICK](function (e) {
-        AppInterface.nextpage("http://qiniu.utribe.me/resource/web/topicsPool.html");
+        AppInterface.nextpage("http://qiniu.utribe.me/resource/web/topicsPool.html")
     })
 }
 
