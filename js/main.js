@@ -1,7 +1,7 @@
 function getCookie(cookie) {
     $.ajax({
         type: "GET",
-        url: "http://web.utribe.me/api/v1/find/login",
+        url: "http://web.utribe.me:22222/api/v1/find/login",
         data: { id: cookie },
         async: false,
         xhrFields: { withCredentials: true },
@@ -35,7 +35,7 @@ function discover() {
     function getHotPosts() {
         $.ajax({
             type: "GET",
-            url: "http://web.utribe.me/api/v1/find/top",
+            url: "http://web.utribe.me:22222/api/v1/find/top",
             xhrFields: { withCredentials: true },
             crossDomain: true,
             dataType: "json",
@@ -53,7 +53,7 @@ function discover() {
     function getOfficialPosts() {
         $.ajax({
             type: "GET",
-            url: "http://web.utribe.me/api/v1/find/recommend",
+            url: "http://web.utribe.me:22222/api/v1/find/recommend",
             xhrFields: { withCredentials: true },
             crossDomain: true,
             dataType: "json",
@@ -143,7 +143,7 @@ function playCarousel() {
     var images = null;
     $.ajax({
         type: "GET",
-        url: "http://web.utribe.me/api/v1/find/advertisement",
+        url: "http://web.utribe.me:22222/api/v1/find/advertisement",
         xhrFields: { withCredentials: true },
         crossDomain: true,
         dataType: "json",
