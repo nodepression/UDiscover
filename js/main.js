@@ -26,6 +26,7 @@ function discover() {
     var lookAll = $("#lookAll");
     var hotPosts = null;
     var officialPosts = null;
+    // 规范字体大小
     (function initFontSize() {
         var myHtml = $("#myHtml");
         var WIDTH = document.documentElement.clientWidth;
@@ -68,6 +69,7 @@ function discover() {
         })
     }
     getOfficialPosts();
+    // 预览标题长度
     function setString(str, len) {
         var strlen = 0;
         var s = "";
@@ -132,6 +134,7 @@ function discover() {
         }
         AppInterface.SendTieziId(id)
     });
+    // 跳转到话题池
     lookAll[CLICK](function (e) {
         AppInterface.nextpage("http://qiniu.utribe.me/resource/web/topicsPool.html")
     })
